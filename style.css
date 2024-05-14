@@ -1,0 +1,14 @@
+body{
+    background: rgb(255,182,80);
+    background: radial-gradient(circle, rgba(255,182,80,1) 0%, rgba(252,70,171,1) 100%); 
+}
+.nav-link {
+    color: rgb(255, 111, 152) !important;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand{
+    color: rgb(255, 98, 158) !important;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Ariel Narrow Bold', sans-serif;
+}
