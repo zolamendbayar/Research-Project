@@ -15,7 +15,7 @@ NAVBAR
 }
 
 .navbar-brand {
-    color: rgb(255, 98, 158) !important;
+    color: #ff629e !important;
     font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Ariel Narrow Bold', sans-serif;
 }
@@ -30,7 +30,6 @@ HERO SECTION
 =================================================
 */
 .hero-section {
-    background-color: rgba(255, 0, 149, 0.273);
     background-image: url("img/bg-image.png");
     background-position: center;
     background-size: cover;
@@ -48,13 +47,46 @@ HERO SECTION
     text-shadow: 3px 1px 2px rgb(255, 176, 214);
     font-size: 18px;
   }
+  
+.btn-primary{
+  background-color: rgba(255, 98, 137, 0);
+  border:1px solid rgba(255, 98, 137, 0);
+  font-size: 50px;
+  color: #ff629e;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: rgb(255, 121, 163);
+  border: 1px solid rgb(255, 121, 163);
+}  
   /*
 =================================================
 RESUME SECTION
 =================================================
 */
-.btn-center {
-    display: block;
-    margin: 0 auto;
+.white-bg{
+  background-color: #e63e9d;
+}
+.resume-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
 }
 
+.resume-section .btn {
+  margin: 8% 0; /* Adjust the margin as needed */
+}
+.d-inline-flex.gap-1 {
+  
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.carousel-inner h5,
+.carousel-inner p{
+  color:#000;
+}
