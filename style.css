@@ -39,6 +39,16 @@ HERO SECTION
     color: #ffffff;
     font-size: 56px;
     font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+    text-shadow: -10px 10px 0px #eb3cab, -20px 20px 0px #e73076, -30px 30px 0px #ff00c3;
+    animation: myanim 3s infinite;
+  }
+  
+  @keyframes myanim {
+    50% {
+      text-shadow: 10px -10px 0px #eb3cab, 20px -20px 0px #e73076, 30px -30px 0px #ff00c3;
+    }
   }
   
   .hero-section .lead {
@@ -58,8 +68,8 @@ HERO SECTION
 }
 .btn-primary:hover,
 .btn-primary:focus{
-  background-color: rgb(255, 121, 163);
-  border: 1px solid rgb(255, 121, 163);
+  background-color: #ff629e;
+  border: 1px solid rgba(255, 126, 167, 0);
 }  
   /*
 =================================================
@@ -67,9 +77,9 @@ RESUME SECTION
 =================================================
 */
 .white-bg{
-  background-color: #e63e9d;
+  background-color: #ffffff;
 }
-.resume-section {
+.card-body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,8 +87,8 @@ RESUME SECTION
   min-height: 80vh;
 }
 
-.resume-section .btn {
-  margin: 8% 0; /* Adjust the margin as needed */
+.card-body.btn {
+  margin: 100% 0; /* Adjust the margin as needed */
 }
 .d-inline-flex.gap-1 {
   
@@ -86,7 +96,18 @@ RESUME SECTION
   padding: 30px;
 }
 
-.carousel-inner h5,
+.carousel-inner h2{
+  color:#ffffff;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
 .carousel-inner p{
-  color:#000;
+  color: #e7307600;
+}
+.carousel-container{
+  max-width:600px;
+  margin:0 auto;
+  padding-bottom:30px;
 }
