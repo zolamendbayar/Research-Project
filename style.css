@@ -96,18 +96,37 @@ RESUME SECTION
   padding: 30px;
 }
 
+
+.light-bg{
+  background-color:#ffffff;
+}
 .carousel-inner h2{
   color:#ffffff;
+  background-color: rgba(255, 135, 105, 0.401);
   
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
 .carousel-inner p{
-  color: #e7307600;
+  color: #ff066606;
 }
 .carousel-container{
   max-width:600px;
   margin:0 auto;
   padding-bottom:30px;
+}
+.container-spotify {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: rgba(37, 17, 26, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
 }
